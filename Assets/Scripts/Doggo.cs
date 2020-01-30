@@ -13,12 +13,16 @@ public class Doggo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        foreach(Touch touch in Input.touches)
+        if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began)) {
+            GetComponent<AudioSource>().Play();
+        }
+
+        /* foreach(Touch touch in Input.touches)
         {
             if (touch.phase == TouchPhase.Began)
             {
                 GetComponent<AudioSource>().Play();
             }
-        }
+        } */
     }
 }
