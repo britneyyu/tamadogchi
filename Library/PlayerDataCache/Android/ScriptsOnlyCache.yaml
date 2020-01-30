@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -36,7 +35,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10386}
     - Class: 114
-      Script: {instanceID: 15464}
+      Script: {instanceID: 12708}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
