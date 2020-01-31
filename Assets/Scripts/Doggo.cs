@@ -14,7 +14,7 @@ public class Doggo : MonoBehaviour
     void Update()
     {
         if ((Input.touchCount > 0) && (Input.GetTouch(0).phase == TouchPhase.Began)) {
-            GetComponent<AudioSource>().Play();
+            GameObject.FindGameObjectWithTag()
         }
 
         /* foreach(Touch touch in Input.touches)
